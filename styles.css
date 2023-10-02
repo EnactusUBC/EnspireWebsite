@@ -235,6 +235,12 @@ body {
     border: 10px #264653 solid;
 }
 
+.enactusUBC-link {
+    text-decoration: underline;
+    color: #264653;
+    font-weight: 600;
+}
+
 
 
 
