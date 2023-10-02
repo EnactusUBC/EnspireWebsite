@@ -144,6 +144,7 @@ body {
     text-align: center;
     justify-content: center;
     background-color: #264653;
+    padding-bottom: 80px;
 }
 
 .workshops-header {
@@ -161,8 +162,8 @@ body {
     display: grid;
     background-color: #264653;
     grid-template-columns: 350px 350px;
-    grid-gap: 20px;
-    padding: 20px;
+    grid-gap: 45px;
+    padding: 45px;
     align-items: center;
     justify-content: center;
     margin: auto
@@ -196,6 +197,45 @@ body {
     font-weight: 200;
     font-size: 16px;
 }
+
+.headerSection {
+    display: flex
+}
+
+.enactusUBC {
+    background-color: #78BEB5;
+    color: #264653;
+    padding: 50px;
+    display: flex
+}
+
+.enactusUBC-left {
+    margin: 20px;
+}
+
+.enactusUBC-header {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.enactus-logo {
+    max-width: 60px;
+    max-height: 60px;
+    margin: 5px
+}
+
+.enactusUBC-text {
+    font-size: 22px;
+    margin: 15px 0px
+}
+
+.enactusUBC-photo {
+    max-width: 600px;
+    margin: 70px;
+    border: 10px #264653 solid;
+}
+
+
 
 
 
