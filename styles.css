@@ -441,7 +441,7 @@ body {
     border: 3px #264653 solid;
     cursor: pointer;
     transition: 0.3s ease;
-    margin: 15px 0px 35px;
+    margin: 15px 5px 35px;
 }
 
 .workshop-arb-twoblock-button-research:hover {
