@@ -198,15 +198,11 @@ body {
     font-size: 16px;
 }
 
-.headerSection {
-    display: flex
-}
-
 .enactusUBC {
     background-color: #78BEB5;
     color: #264653;
     padding: 50px;
-    display: flex
+    text-align: center;
 }
 
 .enactusUBC-left {
@@ -225,8 +221,8 @@ body {
 }
 
 .enactusUBC-text {
-    font-size: 22px;
-    margin: 15px 0px
+    font-size: 19px;
+    margin: 60px 50px 5px 50px
 }
 
 .enactusUBC-photo {
@@ -241,9 +237,268 @@ body {
     font-weight: 600;
 }
 
+.footer {
+    background-color: #264653;
+    padding: 1px 20px;
+    height: 200px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.footer-logo img {
+    max-width: 180px;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.footer-top-right {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.social-icons {
+    display: block;
+    align-items: center;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 38px;
+    margin-right: 25px;
+    color: #ABABAB;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #E7C268;
+    transform: translateY(-5px);
+}
+
+/* Styles for Workshop 1 */
+.workshop-title-page {
+    background-color: #1d3740;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.workshop-top-text {
+    color: white;
+    max-width: 65%;
+    padding: 30px;
+}
+
+.workshop-icon {
+    border-radius: 50%;
+    max-width: 70px;
+    padding: 50px;
+}
+
+.workshop-title-month {
+    margin: 10px 3px;
+    color: #E7C268;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.workshop-title-title {
+    margin: 15px 3px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.workshop-title-description {
+    margin: 3px;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+.instructions {
+    background-color: #78BEB5;
+    padding: 25px 0px;
+}
+
+.instruction-text {
+    color:#264653;
+    text-align: center;
+    font-size: 21px;
+    margin: 5px 20%;
+    padding: 15px;
+}
+
+.workshop-header-arbitrary {
+    margin: 5px 0px;
+    background-color: #A8DED8;
+    color: #264653;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.workshop-header-arbitrary-title {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+.workshop-arbitrary-video {
+    background-color: #A8DED8;
+    text-align: center;
+    padding: 50px;
+}
+
+.design-process {
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.workshop-arb-twoblock {
+    align-items: center;
+    text-align: center;
+    color: #264653;
+    background-color: #F4A261;
+}
+
+.workshop-arb-twoblock-title {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 25px;
+    margin: 0px;
+}
+
+.arb-blocks {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.workshop-arb-twoblock-block {
+    width: 450px;
+    height: 300px;
+    background-color: rgb(237, 176, 125);
+    margin: 20px 10px;
+    padding: 15px;
+}
+
+.workshop-arb-twoblock-text {
+    font-size: 20px;
+    padding: 35px;
+}
+
+.workshop-arb-twoblock-button {
+    background-color: rgb(237, 176, 125);
+    border-radius: 20px;
+    color: #264653;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 50px;
+    border: 3px #264653 solid;
+    margin: 120px 0px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.workshop-arb-twoblock-button:hover {
+    background-color: white;
+    color: rgb(237, 176, 125);
+    border: 3px rgb(237, 176, 125) solid;
+}
+
+.workshop-arb-twoblock-text2 {
+    font-size: 20px;
+    color: #264653;
+    padding: 3px 15px;
+}
+
+.share-activity {
+    max-width: 900px;
+    padding: 25px;
+}
+
+.workshop-arb-twoblock-button-research {
+    background-color: #A8DED8;
+    border-radius: 20px;
+    color: #264653;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 50px;
+    border: 3px #264653 solid;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: 15px 0px 35px;
+}
+
+.workshop-arb-twoblock-button-research:hover {
+    background-color: white;
+    color: #A8DED8;
+    border: 3px #A8DED8 solid;
+}
+
+.learning-challenge {
+    background-color: #324158;
+    color: #E7C268;
+    text-align: center;
+    padding: 35px;
+    margin: 5px 0px;
+}
+
+.lc-title-text {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.lc-title-line {
+    width: 600px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.lc-button {
+    background-color: #324158;
+    border-radius: 20px;
+    color: #A8DED8;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 50px;
+    border: 3px #A8DED8 solid;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.lc-button:hover {
+    background-color: #6682ad;
+    color: white;
+    border: 3px #6682ad solid;
+}
 
 
 
-
-
-
+.lc-text {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 500;
+}
