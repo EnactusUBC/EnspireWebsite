@@ -502,3 +502,10 @@ body {
     padding: 20px;
     font-weight: 500;
 }
+
+.async-video {
+    padding: 150px;
+    background-color: #264653;
+    text-align: center;
+    margin: auto;
+}
