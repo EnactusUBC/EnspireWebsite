@@ -503,9 +503,14 @@ body {
     font-weight: 500;
 }
 
-.async-video {
+.async-video-container {
     padding: 150px;
     background-color: #264653;
     text-align: center;
     margin: auto;
+}
+
+.async-video {
+    width: 945px;
+    height: 533px;
 }
