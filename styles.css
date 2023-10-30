@@ -12,7 +12,8 @@ body {
     background-color: #132329;
     height: 120px;
     width: 100%;
-    position: fixed
+    position: fixed;
+    z-index: 90;
 }
 
 .navbar-logo {
