@@ -38,6 +38,16 @@ body {
     margin: 15px;
 }
 
+.blog {
+    text-decoration: none;
+    color: #e9c46a;
+    font-size: 25px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 15px;
+}
+
 .dropdown-button {
     text-decoration: none;
     color: #e9c46a;
@@ -515,3 +525,46 @@ body {
     width: 945px;
     height: 533px;
 }
+
+.first-blog {
+    background-color: #78BEB5;
+    color: #264653;
+    padding: 30px;
+    text-align: center;
+    display: flex; /* Set the container to flex */
+}
+
+.blog-photo1 {
+    max-width: 700px;
+    margin-top: 120px;
+    border: 5px #264653 solid;
+}
+
+.blog-text {
+    padding-top: 100px;
+    margin-left: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.blog-text h2 {
+    font-size: 1em;
+    padding-right: 810px;
+    margin-top: 20px;
+}
+
+.read-time {
+    font-size: 0.8em;
+    color: #888; 
+    margin-left: 60px;
+  }
+
+  .blog-text h1 {
+    margin-right: 400px;
+  }
+
+
+
+
