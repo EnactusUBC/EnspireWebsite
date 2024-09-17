@@ -94,12 +94,30 @@ body {
     text-align: center;
     background-color: #264653;
     padding-top: 120px;
-}
-
-.hero-logo {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("assets/images/newEnspireBG.png")
+  }
+  
+  .awards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  
+  .heroLogo {
     max-width: 48%;
-    margin: 160px;
-}
+    margin: 80px;
+  }
+  
+  .heroAward {
+    max-width: 175px;
+    margin: 20px;
+  }
 
 .mission {
     text-align: center;
